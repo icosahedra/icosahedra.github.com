@@ -35,10 +35,26 @@ h1{
 }
 
 /* Page CSS */
+    .content-blocks{
+        
+          margin-top: 50px;
+        
 
-.content-blocks{
-    margin-top: 50px;
+        
+    }
+
+@media only screen and (max-width: 768px) {
+    .content-blocks{
+        
+          margin-top: 186px;
+        
+
+        
+    }
 }
+
+        
+    
 
 .content-block{
     padding-top: 40px;
