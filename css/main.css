@@ -19,10 +19,14 @@ src: local('☺'),
     background-color:#23272e;
 }
 
+/*.navbar{
+    min-height: 90px;
+}*/
+
 .navbar-brand{
     /*color:#e6ebee;*/
     font-family: Lato-Hairline;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 /* Standard overrides */
@@ -36,17 +40,13 @@ h1{
 
 /* Page CSS */
     .content-blocks{
-        
-          margin-top: 50px;
-        
-
-        
+          margin-top: 90px;    
     }
 
 @media only screen and (max-width: 768px) {
     .content-blocks{
         
-          margin-top: 186px;
+          /*margin-top: 186px;*/
         
 
         
