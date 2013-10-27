@@ -24,6 +24,7 @@ src: local('☺'),
 
 .header-navigation nav{
     text-align: left;
+    margin-bottom: 20px;
 }
 .header-navigation ul{
     padding: 0 0 0 0;
@@ -37,7 +38,13 @@ src: local('☺'),
 }
 /*Bootstrap overrides*/
 
-
+.divider{
+    border-top: 1px solid #b3c4ce;
+    opacity: 0.1;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 .navbar-inverse{
@@ -73,5 +80,5 @@ h1{
 .content-block{
     padding-top: 120px;
     padding-bottom: 120px;
-    border-bottom: 1px solid #a2adb5;
+    /*border-bottom: 1px solid #a2adb5;*/
 }
