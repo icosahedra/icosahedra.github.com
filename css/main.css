@@ -13,7 +13,32 @@ src: local('☺'),
      /*url('/font/Lato_Hairline.eot');  IE9 */
 }
 
+
+.header-navigation a{
+    color: #c2ccd2;
+    text-decoration: none;
+}
+.header-navigation a:hover{
+    text-decoration: none;
+}
+
+.header-navigation nav{
+    text-align: left;
+}
+.header-navigation ul{
+    padding: 0 0 0 0;
+    padding-left: 8px;
+}
+.header-navigation ul li { 
+    display: inline; 
+    margin-right: 50px;
+    font-family: Lato-Light;
+    text-transform: uppercase;
+}
 /*Bootstrap overrides*/
+
+
+
 
 .navbar-inverse{
     background-color:#5c6775;
@@ -35,6 +60,8 @@ h1{
     text-transform:uppercase;
     font-size: 90px;
     color: #c2ccd2;
+    margin-top: 50px;
+    margin-bottom: 0px;
 }
 
 /* Page CSS */
