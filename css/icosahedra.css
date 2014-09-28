@@ -67,6 +67,10 @@ src: local('☺'),
 	margin-left: auto;
 }
 
+.content{
+	min-width: 500px;
+}
+
 .clear{
 	clear:both;
 }
