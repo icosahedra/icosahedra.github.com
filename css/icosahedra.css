@@ -33,7 +33,7 @@ src: local('☺'),
 	width: 100%;
 	min-height: 80px;
 	margin-bottom: 20px;
-	background-color: #222;
+	background-color: #161620;
 	opacity: 0.95;
 	border-bottom: 1px solid #666;
 	-webkit-transition:background-color .5s, -webkit-transform .5s;
@@ -60,7 +60,7 @@ src: local('☺'),
 }
 
 .navbar:hover{
-	background-color: #050505;
+	background-color: #050520;
 }
 
 .navbar .logo{
