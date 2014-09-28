@@ -18,7 +18,7 @@ src: local('☺'),
 
 .body{
 	width: 100%;
-	min-width: 600px;
+	
 }
 
 .light{
@@ -71,7 +71,7 @@ src: local('☺'),
 	padding-top: 10px;
 }
 .case-info{
-	width: 500px;
+	/*width: 500px;*/
 }
 
 .navbar-container{
