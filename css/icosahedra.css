@@ -54,6 +54,9 @@ src: local('☺'),
 .case-study{
 	display: block;
 }
+.case-info{
+	width: 500px;
+}
 
 .navbar-container{
 	margin-left: auto;
@@ -71,6 +74,27 @@ src: local('☺'),
 	min-width: 500px;
 }
 
+p, a {
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 12px;
+	line-height: 1.4;
+	color:#5a5a5a;
+	margin: 0;
+}
+
+.case-study h2{
+	font-size: 44px;
+	font-family:"Lato-Hairline", "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.case-study h3{
+	text-transform: uppercase;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 13px;
+	color:#333;
+	margin-bottom: 4px;
+}
+
 .clear{
 	clear:both;
 }
@@ -79,6 +103,7 @@ src: local('☺'),
 	
 	.content img{
 		float: right;
+		margin-left: 20px;
 
 	}
 	
