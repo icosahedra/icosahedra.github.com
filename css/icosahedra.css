@@ -18,7 +18,7 @@ src: local('☺'),
 
 .body{
 	width: 100%;
-
+	min-width: 600px;
 }
 
 .light{
