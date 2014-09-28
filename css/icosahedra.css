@@ -16,6 +16,18 @@ src: local('☺'),
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+.body{
+	width: 100%;
+
+}
+
+.light{
+	background-color: #fefefe
+}
+.dark{
+	background-color: #fcfcfc
+}
+
 .navbar{
 	position: fixed;
 	width: 100%;
@@ -51,8 +63,12 @@ src: local('☺'),
 	background-color: #050505;
 }
 
+
+
 .case-study{
 	display: block;
+	padding-bottom: 70px;
+	padding-top: 10px;
 }
 .case-info{
 	width: 500px;
@@ -85,6 +101,7 @@ p, a {
 .case-study h2{
 	font-size: 44px;
 	font-family:"Lato-Hairline", "Helvetica Neue",Helvetica,Arial,sans-serif;
+	margin-bottom: 16px;
 }
 
 .case-study h3{
@@ -110,7 +127,12 @@ p, a {
 }
 
 .about{
-	
+	margin-bottom: 100px;
 	min-height: 300px;
+	background-color: #333;
+}
+.footer{
+	
+	min-height: 200px;
 	background-color: #333;
 }
