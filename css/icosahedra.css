@@ -18,7 +18,7 @@ src: local('☺'),
 
 .body{
 	width: 100%;
-	
+
 }
 
 .light{
@@ -63,7 +63,10 @@ src: local('☺'),
 	background-color: #050505;
 }
 
-
+.navbar .logo{
+	float: right;
+	margin-top: 6px;
+}
 
 .case-study{
 	display: block;
