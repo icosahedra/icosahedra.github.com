@@ -87,7 +87,8 @@ src: local('☺'),
 }
 
 .content{
-	min-width: 500px;
+	/*min-width: 500px;*/
+	width: 100%;
 }
 
 p, a {
@@ -127,6 +128,7 @@ p, a {
 }
 
 .about{
+	width: 100%;
 	margin-bottom: 100px;
 	min-height: 300px;
 	background-color: #333;
