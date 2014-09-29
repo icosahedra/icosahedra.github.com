@@ -22,10 +22,10 @@ src: local('☺'),
 }
 
 .light{
-	background-color: #fefefe
+	background-color: #f0f0f0
 }
 .dark{
-	background-color: #fcfcfc
+	background-color: #e0e0e0
 }
 
 .navbar{
@@ -68,25 +68,37 @@ src: local('☺'),
 	margin-top: 6px;
 }
 
+h1.heading{
+	font-family:"Lato-Hairline", "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 120px;
+	padding-bottom: 20px;
+	/*margin-left: 40px;*/
+	text-align: center;
+	/*text-transform: uppercase;;*/
+}
+
 .case-study{
 	display: block;
 	padding-bottom: 70px;
 	padding-top: 10px;
 }
 .case-info{
+	display: table;
 	/*width: 500px;*/
 }
+
 
 .navbar-container{
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.content img{
+.content img.case-image{
 	float: none;
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
+	margin-top: 40px;
 }
 
 .content{
@@ -106,6 +118,7 @@ p, a {
 	font-size: 44px;
 	font-family:"Lato-Hairline", "Helvetica Neue",Helvetica,Arial,sans-serif;
 	margin-bottom: 16px;
+	margin-top: 30px;
 }
 
 .case-study h3{
@@ -122,10 +135,10 @@ p, a {
 
 @media (min-width: 800px){
 	
-	.content img{
+	.content img.case-image{
 		float: right;
 		margin-left: 20px;
-
+		
 	}
 	
 }
@@ -133,11 +146,25 @@ p, a {
 .about{
 	width: 100%;
 	margin-bottom: 100px;
+
 	min-height: 300px;
-	background-color: #333;
+	background-color: #0f121a;
+
+}
+.about .bio{
+	font-family:"Lato-Hairline","Helvetica Neue",Helvetica,Arial,sans-serif;
+	color:#fff;
+	padding-top: 150px;
 }
 .footer{
+	margin-top: 100px;
 	width: 100%;
-	min-height: 200px;
-	background-color: #333;
+	min-height: 100px;
+	background-color: #0f121a;
+}
+.footer .copyright{
+	font-family:"Lato-Hairline","Helvetica Neue",Helvetica,Arial,sans-serif;
+	color:#fff;
+	text-align: center;
+	padding-top: 60px;
 }
