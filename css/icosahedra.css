@@ -59,6 +59,7 @@
 h1.heading{
 	font-family: "Gill Sans","Helvetica Neue",Helvetica,"Century Gothic",Arial,sans-serif;
 	font-weight: 300;
+	color: #111;
 	font-size: 120px;
 	padding-bottom: 20px;
 	/*margin-left: 40px;*/
@@ -106,6 +107,7 @@ p, a {
 .case-study h2{
 	font-size: 44px;
 	font-family: "Gill Sans","Helvetica Neue",Helvetica,"Century Gothic",Arial,sans-serif;
+	color: #222;
 	margin-bottom: 16px;
 	margin-top: 30px;
 	font-weight: 200;
