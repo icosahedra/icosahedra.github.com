@@ -1,17 +1,4 @@
-/*Included Fonts */
-@font-face{
-font-family: Lato-Light;
-src: local('☺'),
-url('../font/Lato-Light.ttf') format("truetype");
-     /*url('/font/Lato_Light.eot');  IE9 */
-}
 
-@font-face{
-font-family: Lato-Hairline;
-src: local('☺'),
-        url('../font/Lato-Hairline.ttf') format("truetype");
-     /*url('/font/Lato_Hairline.eot');  IE9 */
-}
 .copy{
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
@@ -55,9 +42,9 @@ src: local('☺'),
 	opacity: 1;
 	color: #ddd;
 	font-size: 20px;
-	font-family:"Lato-Light", "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: "Gill Sans","Helvetica Neue",Helvetica,"Century Gothic",Arial,sans-serif;
 	padding-top: 10px;
-	font-weight: 100;
+	font-weight: 200;
 }
 
 .navbar:hover{
@@ -70,8 +57,8 @@ src: local('☺'),
 }
 
 h1.heading{
-	font-family:"Lato-Hairline", "Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-weight: 100;
+	font-family: "Gill Sans","Helvetica Neue",Helvetica,"Century Gothic",Arial,sans-serif;
+	font-weight: 300;
 	font-size: 120px;
 	padding-bottom: 20px;
 	/*margin-left: 40px;*/
@@ -117,11 +104,11 @@ p, a {
 }
 
 .case-study h2{
-	font-weight: 100;
 	font-size: 44px;
-	font-family:"Lato-Hairline", "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: "Gill Sans","Helvetica Neue",Helvetica,"Century Gothic",Arial,sans-serif;
 	margin-bottom: 16px;
 	margin-top: 30px;
+	font-weight: 200;
 }
 
 .case-study h3{
@@ -155,7 +142,7 @@ p, a {
 
 }
 .about .bio{
-	font-family:"Lato-Hairline","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
 	color:#fff;
 	padding-top: 150px;
 }
@@ -166,8 +153,9 @@ p, a {
 	background-color: #0f121a;
 }
 .footer .copyright{
-	font-family:"Lato-Hairline","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: "Gill Sans","Helvetica Neue",Helvetica,"Century Gothic",Arial,sans-serif;
 	color:#fff;
 	text-align: center;
 	padding-top: 60px;
+	font-weight: 100;
 }
