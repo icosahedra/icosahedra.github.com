@@ -18,7 +18,7 @@
 .navbar{
 	position: fixed;
 	width: 100%;
-	min-height: 80px;
+	min-height: 60px;
 	margin-bottom: 20px;
 	background-color: #161620;
 	opacity: 0.95;
@@ -41,10 +41,65 @@
 .navbar h1{
 	opacity: 1;
 	color: #ddd;
-	font-size: 20px;
+	font-size: 18px;
 	font-family: "Gill Sans","Helvetica Neue",Helvetica,"Century Gothic",Arial,sans-serif;
 	padding-top: 10px;
 	font-weight: 200;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+}
+.navbar h2.subheading{
+	opacity: 1;
+	color: #aaa;
+	font-size: 17px;
+	font-family: "Gill Sans","Helvetica Neue",Helvetica,"Century Gothic",Arial,sans-serif;
+	
+	font-weight: 100;
+	text-transform: uppercase;
+	margin-top: 0px;
+}
+
+.navigation{
+	float: left;
+}
+.nav-title{
+	margin-right: 30px;
+}
+.nav-element{
+	
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	/*padding-left: 20px;*/
+	/*padding-top: 25px;*/
+	/*padding-right: 20px;*/
+	/*padding-bottom: 25px;*/
+
+	background-color: #181822;
+	-webkit-transition:background-color .5s, -webkit-transform .5s;
+    transition:background-color .5s, transform .5s;
+}
+.nav-element:hover{
+	background-color: #262630;
+}
+
+.navigation h2 a{
+	font-family: "Gill Sans","Helvetica Neue",Helvetica,"Century Gothic",Arial,sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	padding-left: 20px;
+	padding-top: 25px;
+	padding-right: 20px;
+	padding-bottom: 25px;
+	text-decoration: none;
+	color: #ddd;
+	text-transform: uppercase;
+	display: block;
+}
+
+.navigation h2 a:hover{
+	color: #ddd;
 }
 
 .navbar:hover{
@@ -53,7 +108,7 @@
 
 .navbar .logo{
 	float: right;
-	margin-top: 6px;
+	margin-top: 20px;
 }
 
 h1.heading{
@@ -139,15 +194,11 @@ p, a {
 	width: 100%;
 	margin-bottom: 100px;
 
-	min-height: 300px;
+	min-height: 100px;
 	background-color: #0f121a;
 
 }
-.about .bio{
-	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
-	color:#fff;
-	padding-top: 150px;
-}
+
 .footer{
 	margin-top: 100px;
 	width: 100%;
@@ -161,3 +212,18 @@ p, a {
 	padding-top: 60px;
 	font-weight: 100;
 }
+
+/*About Page*/
+
+.bio{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.biotext{
+	max-width: 500px;
+}
+.biotext p{
+	margin-top: 10px;
+}
+
+
